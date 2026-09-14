@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-dontwarn kotlinx.serialization.**
+-keep,includedescriptorclasses class com.sectorrrg.data.**$$serializer { *; }
+-keepclassmembers class com.sectorrrg.data.** { *** Companion; }
